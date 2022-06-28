@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONAR</title>
+    <!--CSS Body-->
+    <link rel="stylesheet" href="styles.css">
+    <!--CSS Icons-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!--Icon Clock-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Movement CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--MENU-->
+
+    <nav class="nav-nav">
+
+        <input type="checkbox" id="check">
+        
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+
+        <div class="enlace">
+            <img src="Img/Logo remasterizado 15PX HJDBjdjd.png" alt="MONAR" class="logo">
+        </div>
+
+        <ul>
+            <li class="egg"><a href="#benefits">Beneficios</a></li>
+            <li class="egg"><a href="#Cotizacion">Solicitud de Cotización</a></li>
+            <li class="egg"><a href="#Vision">Visión</a></li>
+            <li class="egg"><a href="#Contacto">Contacto</a></li>
+            <li class="egg"><a href="#Servicios">Servicios</a></li>
+        </ul>
+
+    </nav>
+
+    <!--titulo de hover-->
+
+    <div class="title">
+
+        <marquee scrollamount="25px" behavior="slide" class="marque"> 
+            <h1>TRANSPORTES <mark>MONAR</mark> SU MEJOR OPCIÓN</h1>
+        </marquee>
+
+    </div>
+
+    <!--Hover 3d-->
+
+    <div class="body">
+
+        <div class="container"  data-aos="zoom-in-up">
+
+            <div class="cara cara1">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="cara cara2">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Segunda parte-->
+
+    <div class="benefits" id="benefits">
+
+        <div  class="item" id="item1" data-aos="fade-right">
+            
+            <h1>"Prioridades"</h1>
+
+            <p>Nuestros clientes son únicos y especiales para nosotros, así que manejamos una de las mejores asesorías para brindar un excelente servicio</p>
+
+        </div>
+
+        <div  class="item" id="item2" data-aos="fade-down">
+
+            <h1>"Cuidamos el Servicio"</h1>
+
+            <p> Los equipos de MONAR cuentan con servicios constantes de mantenimiento para que esten actualizados y así puedan dar un buen rendimiento y ahorro para usted</p>
+            
+        </div>
+
+        <div  class="item" id="item3" data-aos="fade-left">
+           
+            <h1>"Atención"</h1>
+            <p>Respondemos de inmediato a tus dudas o problemas que tengas por parte de MONAR también le damos segimiento constante a mercancía</p>
+
+        </div>
+
+    </div>
+
+   
+
+    
+
+    <div class="intro">
+        
+        <!--Cotización--> 
+
+        <div class="Cotizacion" id="Cotizacion" >
+
+            <form action="https://formspree.io/f/xknykada" method="POST" class="form" data-aos="zoom-in-down" >
+
+                <h1>Solicita una Cotización</h1>
+                <h3>Tendra respuesta lo mas pronto posible.</h3>
+
+                <p class="foco">
+                    <label for="nombre" class="colocar_nombre"> Nombre o Compañia <span class="obligatorio">*</span> </label>
+                    <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Introducir su nombre o de la compañía a la que pertenece">
+                </p>
+
+                <p class="foco">
+                    <label for="email" class="colocar_email"> Email <span class="obligatorio">*</span> </label>
+                    <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder=" Escribe el email en el que deseé que se pongan en contacto">
+                </p>
+
+                <p class="foco">
+                    <label for="telefone" class="colocar_telefono"> Teléfono </label>
+                    <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                </p>
+
+                <p class="foco">
+                    <label for="domicile" class="colocar_domicilio"> Domicilio </label>
+                    <input type="text" name="introducir_direción" id="direction"  placeholder=" Escribe tu dirección" maxlength="300">
+                </p>
+
+                <p class="foco">
+                    <label for="mensaje" class="colocar_mensaje"> Descripción  <span class="obligatorio">*</span> </label>
+                    <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Escribe aquí lo que deseas transportar (Trata de ser breve y conciso porfavor.)" maxlength="502"></textarea>
+                </p>
+
+                <button type="submit" name="enviar_formulario" id="enviar" class="you"><p> Enviar</p></button>
+
+                <p class="aviso">
+                    <span class="obligatorio">*</span> Los campos son obligatorios.
+                </p>
+                
+            </form>     
+            
+        <div class="Cotizacion img" data-aos="zoom-in-left">
+            <img src="img/cotizacion (prueba).webp" alt="cotizacion">
+        </div>      
+
+    </div>
+    
+    <!--DIV UBICACION-->
+
+    <div class="showcase" id="Vision">
+
+        <div class="luna" data-aos="fade-up"  data-aos-duration="3000">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.1077600435!2d-99.07342917371314!3d19.450920225903463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1fb91aee42595%3A0x78f10edc8c4e7b58!2sAv%20599%2C%20San%20Juan%20de%20Arag%C3%B3n%20III%20Secc%2C%20Gustavo%20A.%20Madero%2C%2007970%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses!2smx!4v1653516042829!5m2!1ses!2smx" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapa"></iframe>
+
+        </div>
+
+        <div class="sol" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+
+            <h1>Nuestra Ubicación</h1>
+
+            <hr>
+
+            <p>Av 599, San Juan de Aragón III Secc, Gustavo A. Madero, 07970 Ciudad de México, CDMX</p>
+
+            <p>Transportamos en casi toda la Republica Mexicana, si buscas un transporte seguro MONAR es tu mejor opción ya no sufras con inpuntualidades, entendemos tu necesidad de obtener tus embarques, paquetes... así que nos comprometemos en entregarlo a tiempo y hasta donde puedas pagar.</p>
+
+            <img src="Img/ubicacion2.jpg" alt="ubicacion" class="ubicacion">
+            
+        </div>
+
+    </div>
+
+    <!--Formulario de contacto-->
+
+    <div class="back" id="Contacto">
+
+        <form action="https://formspree.io/f/xzboywyl" method="POST"  id="form" data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+
+            <div class="form-1">
+                <h1>Contacto</h1>
+                <div class="grupo">
+                    <input type="text" name="introducir_nombre" id="name" required="obligatorio"><span class="barra"></span>
+                    <label for="nombre">Nombre</label>
+                </div>
+
+                <div class="grupo">
+                    <input type="email" name="introducir_email" id="name" required="obligatorio"><span class="barra"></span>
+                    <label for="email">Email</label>
+                </div>
+
+                <div class="grupo">
+                    <input type="tel" name="introducir_telefono" id="telefono" required="obligatorio"><span class="barra"></span>
+                    <label for="telephone">Teléfono</label>
+                </div>
+                
+                <div class="grupo">
+                    <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" maxlength="600"><span class="barra"></span>
+                    <label for="assunto">Asunto</label>
+                </div>
+
+                <button type="submit">Enviar</button>
+               
+            </div>
+
+        </form>
+
+    </div>
+
+    <!--showcase servicios-->              <!--Checar o probar con etiqueta ul-->
+
+    <div class="showcase_contenedor" id="Servicios">
+
+        <div class="box_one" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+
+            <h1> Servicios </h1>
+            <ul>
+                <li>Unidades de transportar</li>
+                <li>Tarifas competitivas</li>
+                <li>Entregas consolidadas y directas hasta cualquier punto de la republica.</li>
+                <li>Maniobra cuidadosa de mercancia en custodia</li>
+                <li>Seguridad en el cumplimiento del tiempo pactado para entrega</li>
+            </ul>
+           
+        </div>
+
+        <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+
+            <video src="video/Showcase.mp4" autoplay muted loop class="video_one"></video>
+
+        </div>
+        
+    </div>
+
+    <!-- Informacion Social -->
+
+    <div class="redes-container" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500">
+
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/MONAR-Enlaces-Asociados-de-Log%C3%ADstica-y-Carga-SA-de-CV-113338738059327/" class="facebook"> <i class="fab fa-facebook"></i></a>
+            </li>
+
+            <li>
+                <a href="https://www.instagram.com/monar_logistica/" class="instagram"> <i class="fab fa-instagram"></i></a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/logistica_monar" class="twitter"> <i class="fab fa-twitter"></i></a>
+            </li>
+
+        </ul>       
+
+    </div>
+
+    <!--Footer-->
+
+    <div class="footer-links">
+
+        <div class="footer-container">
+
+            <ul>  
+                <li>
+                    <h3>Horario de Atención</h3>
+                    <p class="horario_dos">Lun- Vie</p>
+                </li>
+                <li class="horario"><i class="fa fa-clock-o"><p class="texto"> 9:00 am - 17:00 pm</p></i></li>
+                
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>Contáctenos</h3>
+                </li>
+                <!--Oficina Maru-->
+                <li>
+                    <a href="tel:5571606675">5571606675</a>
+                </li>
+                <!--Oficina Marce-->
+                <li>
+                    <a href="tel:5571601093">5571601093</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>Correo Electrónico</h3>
+                <li>
+                    <a href="mailto:masociadosdelogistica@gmail.com">masociadosdelogistica@gmail.com</a>
+                </li>
+            </ul>
+
+            <ul>
+                <li>
+                    <h3>Información del Sitio</h3>
+                </li>
+                <li>
+                    <a href="Aviso de Privacidad.html">Aviso de Privacidad</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!--FOOTER-->
+
+    <footer class="footer">
+
+        <h3>© 2022 | MONAR </h3>
+
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    
+</body>
+</html>
